@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&family=Passions+Conflict&family=Roboto+Mono&family=Rubik+Dirt&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    color:white;
+    font-family:'Montserrat';
+    background: url('https://img.waimaoniu.net/1900/1900-202005151621596836.jpg');
+}
+a{
+    color:white;
+}
+.container{
+    max-width: 1300px;
+    margin:0 auto;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-list{
+    display: flex;
+    column-gap: 100px;
+    
+}
+.header{
+    padding-top: 60px;
+
+}
+.nav-item a{
+   font-size: 24px;
+   transition: color 0.2s ease-in;
+}
+.nav-item a:hover{
+    color: rgba(185, 126, 9, 0.8);
+    /* border-bottom:2px solid #eabc30; */
+    /* padding-left:10px;
+    padding-right:10px;
+    margin-left:-10px;
+    margin-right:-22px;
+    
+    height:30px; */
+    /* font-size: 22px;   */
+    /* color:red; */
+  
+ }
+.header-logo{
+    margin-left:10px;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    padding-right:10px;
+    padding-bottom: 3px;
+    transition: all 0.3s ease-in;
+}
+.header-logo::after{
+    content: "";
+    background-color: rgb(185, 126, 9);
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.header-logo:hover{
+    color:rgba(185, 126, 9, 0.8)
+}
+.header-row{
+    display:flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    position: relative;
+}
+.header-content{
+    text-align: end;
+    margin: auto;
+}
+.header-content h1{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+}
+.header-img{
+    max-width: 760px;
+ }
+ .nav-item.active a{
+    color: rgb(185, 126, 9);
+ }
+ .about{
+    background: linear-gradient(to bottom, #d5d5d5 35%, #a6a6a6 75%);
+ }
+ .feature{
+     border:1px solid white;
+    background: white   ; 
+ }
+ .about-title{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+ }
+ .about2{
+    /* background:url('https://catherineasquithgallery.com/uploads/posts/2021-02/1612856743_17-p-fon-krasnii-mramor-18.jpg'); */
+    background: url('../img/header/fon2.jpg') no-repeat ;
+    background-position: center;
+
+ }
+ /* .about2:hover{
+    background: url('../img/header/fon2inv.jpg') no-repeat ;
+    background-position: center;
+ } */
+ .general{
+    display:flex;
+    justify-content: center;
+    background:rgb(253, 252, 253) ;
+ }
+ .general-img img{
+    max-width: 350px;
+    max-height:350px
+    margin:auto;
+ }
+.about-title-black{
+    
+    
+    
+    letter-spacing: 10px;
+    padding-top: 20px;
+    
+    
+    /* font-weight: bold; */
+}
+.about-title-black h2{
+    text-align: center;
+    font-family: 'Rubik Dirt';
+    color:white;
+    font-size: 70px;
+    transition: all 0.3s ease-in;
+    padding-bottom: 20px;
+}
+.about-title-black h2:hover{
+    color:rgb(185, 126, 9);
+    
+}
+.about-card-1{
+    display: flex;
+    
+    margin-bottom: 60px;
+    margin-left:100px;
+}
+.about-card-2{
+    display: flex;
+
+    justify-content: end;
+    margin-bottom: 60px;
+    margin-right:100px;
+    
+}
+.about-card-3{
+    display: flex;
+    
+padding-bottom: 60px;
+    margin-left:100px;
+}
+.about-title-card{
+    
+    max-width: 300px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+.about-title-card:hover{
+    background-color: black;
+    color:white;
+}
+.about-img{
+    max-width: 90px;
+   
+}
+.about-title-card.right{
+    text-align: end;
+}
+.contacts{
+    padding:90px 0;
+    display:flex;
+    
+}
+.contacts-title{
+    margin-bottom: 40px;font-weight: 600;
+    font-size: 70px;
+    line-height: 51px;
+
+    /* identical to box height */
+    
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.contacts-title:hover{
+    color:rgb(185, 126, 9)
+}
+.contacts-content{
+    font-size: 18px;
+line-height: 27px;
+text-align: center;
+margin-bottom: 80px;
+}
+.contacts-button{
+    font-size: 22px; 
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+background-color: #070707;
+border-radius: 25px;
+margin:0 auto;
+max-width:180px;
+margin-bottom: 80px;
+padding: 9px 22px;
+transition: opacity 0.2s ease-in, top 0.4s ease-in;
+}
+.contacts-button a{
+    color: #FFFFFF;
+}
+.contacts-socials{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.contacts-socials{
+    background-color: white;
+    padding: 20px;
+    border-radius:10px;
+}
+.contacts-socials img{
+    border:1px solid black;
+    padding:3px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in;
+    
+}
+.contacts-socials img:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.contacts-footer{
+    line-height: 21px;
+text-align: center;
+
+color: #828282;
+
+}
+.contacts-button:hover, .contacts-button:focus{
+   opacity: 0.8;
+}
+.contacts-button:active{
+    position: relative;
+    top:1px;
+    background-color: #000;
+}
+.nav-button{
+    display: none;
+}
+
